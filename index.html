@@ -4,10 +4,12 @@
     margin: 30px;
     padding: 30px;
     position: absolute;
-    right: 500px;
+    left: 50px;
 }
-.ex7:hover {
-    -webkit-transform: translate(-500px, 0px);;
+
+.translate{
+    -webkit-transform: translate(500px, 0px);;
+
 }
 
 </style>
@@ -16,7 +18,9 @@
 setTimeout(function(){
         // apply a css style to active animation
 
-});
+        f = document.getElementsByClassName("ex7")[0];
+        f.className = "ex7 translate"
+}, 2000);
 
 </script>
 
